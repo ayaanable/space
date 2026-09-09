@@ -1,0 +1,5 @@
+:root { background: #050815; color: #d9e8ff; font-family: Arial, sans-serif; }
+* { box-sizing: border-box; }
+html, body, #game { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+body { display: grid; place-items: center; background: radial-gradient(circle at 50% 40%, #101d3b, #050815 70%); }
+canvas { display: block; box-shadow: 0 0 70px rgba(45, 112, 185, 0.22); }
