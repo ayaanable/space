@@ -9,4 +9,4 @@ npm install
 npm run dev
 ```
 
-Build for deployment with `npm run build`. The Vite config uses `/starfall/` automatically in GitHub Actions for GitHub Pages.
+Build for deployment with `npm run build`. GitHub Actions sets the Vite base path to `/space/` for the repository's GitHub Pages deployment.
